@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> <title>3</title>
+  <style type="text/css"> 
+  *{
+    margin:0;
+    padding:0;
+  }
+    div{width: 600px;}
+    .header {height:50px;background-color:red;}
+    .pink {height:25px;width:150px;background-color:pink;float:left;}
+    .blue{height:25px;width:80px;background:skyblue;float:right;} 
+    .nothing{height:25px;}
+    .purple {height:25px;width:300px;background:purple;float:right;} 
+
+    .content {height:300px;
+                margin-top: 10px;
+                background-color:green;
+            }
+   .content .left {height:300px;width:190px;background-color:yellow;float:left;}
+   .content .right {height:300px;width:400px;margin-left:10px;background-color:pink;float:right;}
+   .content .right .right-up{height:240px;width:400px;background-color:blue;float:right;}
+    .content .right .right-up .right-up-left{height:240px;width:200px;background-color:orange;float: left;}
+    .content .right .right-up .right-up-right{height:240px; width:190px;background-color:green;float:right;}
+    .content .right .right-bottom{height:50px;width:400px;margin-top:10px;background-color:gray;float:right;}
+    
+   .footer{height:50px;background-color:orange;margin-top: 10px;}     
+  </style>
+</head>
+<body>    
+<div class="header">
+    <div class="pink"> </div>
+    <div class="blue"> </div>
+    <div class="nothing"></div>
+    <div class="purple"> </div>
+</div>
+<div class="content">  
+      <div class="left"></div>
+    <div class="right">
+
+    <div class="right-up">
+
+    <div class="right-up-left"></div>
+    <div class="right-up-right"></div>
+    
+    </div>   
+    <div class="right-bottom"></div> </div>
+</div>
+
+<div class="footer"></div>
+</body>
+</html>
